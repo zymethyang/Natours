@@ -1,3 +1,4 @@
+.btn,
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
@@ -7,6 +8,10 @@
     transition: all .2s;
     position: relative;
     border-radius: 100px;
+    font-size: $default-font-size;
+
+    border:none;
+    cursor: pointer;
 }
 
 .btn-white {
@@ -19,12 +24,14 @@
     color: $color-grey-dark;
 }
 
-.btn:hover {
+.btn:hover{
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba($color-black, .2);
 }
 
-.btn:active {
+.btn:active,
+.btn:focus{
+    outline: none;
     transform: translateY(-1px);
     box-shadow: 0 10px 20px rgba($color-black, .2);
 }

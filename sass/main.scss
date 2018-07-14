@@ -16,6 +16,10 @@ Dark green: #28b485
 @import "base/_typography";
 @import "base/_utilities";
 
+
+@import "components/_form";
+@import "components/_story";
+@import "components/_bg-video";
 @import "components/_card";
 @import "components/_feature-box";
 @import "components/_composition";
@@ -24,8 +28,8 @@ Dark green: #28b485
 
 @import "pages/_home";
 
+@import "layout/_footer";
 @import "layout/_grid";
-
 @import "layout/_header";
 
 

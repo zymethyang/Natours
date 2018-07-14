@@ -16,7 +16,11 @@ Dark green: #28b485
 @import "base/_typography";
 @import "base/_utilities";
 
+@import "components/_card";
+@import "components/_feature-box";
+@import "components/_composition";
 @import "components/_button";
+
 
 @import "pages/_home";
 
